@@ -1,16 +1,6 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
-# set umask so that only the user has access to files/directories created
-umask u=rwx,go=
-
-# zsh hooks
-# trigger _umask_hook once working dir is changed
-# precmd is not enough, cause it may not be triggered when cwd is changed by ZLE widget
-add-zsh-hook chpwd _umask_hook
-# make sure _umask_hook is run on startup
-add-zsh-hook precmd _umask_hook
-
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
@@ -104,18 +94,17 @@ plugins=(
     git-auto-fetch
     git-escape-magic
     git-extras
-    git-flow
+    git-flow-avh
     git-hubflow
     git-prompt
     ruby
     python
+    umask
 )
 
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
-
-source $HOME/.functions
 
 zstyle ':completion:*' list-colors $LS_COLORS
 
@@ -151,4 +140,4 @@ compinit
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # The next line updates PATH for egcli command.
-[ -f '/Users/haydenk/Library/Group Containers/FELUD555VC.group.com.egnyte.DesktopApp/CLI/egcli.inc' ] && . '/Users/haydenk/Library/Group Containers/FELUD555VC.group.com.egnyte.DesktopApp/CLI/egcli.inc';
+[ -f "$HOME/Library/Group Containers/FELUD555VC.group.com.egnyte.DesktopApp/CLI/egcli.inc" ] && . "$HOME/Library/Group Containers/FELUD555VC.group.com.egnyte.DesktopApp/CLI/egcli.inc";
