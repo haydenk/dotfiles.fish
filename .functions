@@ -1,0 +1,7 @@
+function _umask_hook {
+    if [[ $PWD == $HOME/Projects/* || $PWD == $HOME/Projects ]]; then
+        umask u+rwx,g=rx,o=r
+    else
+        umask u+rwx,go=
+    fi
+}
