@@ -1,0 +1,1 @@
+/Users/haydenk/.brew/opt/git-flow-avh/share/fish/vendor_completions.d/git-flow.fish
