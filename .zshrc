@@ -116,8 +116,6 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 source $HOME/.functions
-source $BREW_HOME/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-source $BREW_HOME/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 zstyle ':completion:*' list-colors $LS_COLORS
 

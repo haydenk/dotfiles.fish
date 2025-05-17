@@ -11,3 +11,6 @@ alias la='eza -lagh --git --group-directories-first --sort modified'
 # alias ls="gls -lAGh1vX --group-directories-first --color=auto"
 alias ls="gls -Gh1vX --group-directories-first --color=auto"
 # alias ls="gls -GvX --group-directories-first --color=auto"
+
+source $BREW_HOME/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source $BREW_HOME/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
