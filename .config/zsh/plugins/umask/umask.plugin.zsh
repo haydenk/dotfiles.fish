@@ -2,7 +2,7 @@
 umask u=rwx,go=
 
 function _umask_hook {
-    if [[ $PWD == $HOME/Projects/* || $PWD == $HOME/Projects ]]; then
+    if [[ $PWD == $HOME/Projects/* || $PWD == $HOME/Projects || $PWD == /workspaces/* || $PWD == /workspaces || $PWD == /workspaces/* ]]; then
         umask u+rwx,g=rx,o=r
     else
         umask u+rwx,go=

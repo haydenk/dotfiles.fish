@@ -101,6 +101,7 @@ plugins=(
     git-auto-fetch
     git-escape-magic
     git-extras
+    git-flow
     git-flow-avh
     git-hubflow
     git-prompt
