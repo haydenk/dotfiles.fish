@@ -82,12 +82,19 @@ ZSH_CUSTOM="$HOME/.config/zsh"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
+    1password
     macos
     ansible
     aws
+    brew
+    bun
+    bundler
+    cabal
+    colorize
     docker
     docker-compose
     dotenv
+    eza
     encode64
     history
     git
@@ -97,6 +104,7 @@ plugins=(
     git-flow-avh
     git-hubflow
     git-prompt
+    gnu-utils
     ruby
     python
     umask
