@@ -151,20 +151,6 @@ compinit
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias config="$HOME/.brew/bin/git --git-dir=$HOME/.cfg --work-tree=$HOME"
-alias mv="mv -v"
-alias cp="cp -v"
-alias rm="rm -v"
-alias ln="ln -v"
-alias mkdir="mkdir -v"
-alias pman="man-preview"
-alias pwgen="pwgen --capitalize --numerals --symbols --secure"
-alias l='eza --long --all --header --git --no-permissions --no-time --no-user --no-filesize --group-directories-first'
-alias ll='eza -lgh --git --group-directories-first'
-alias la='eza -lagh --git --group-directories-first --sort modified'
-# alias ls="gls -lAGh1vX --group-directories-first --color=auto"
-alias ls="gls -Gh1vX --group-directories-first --color=auto"
-# alias ls="gls -GvX --group-directories-first --color=auto"
 
 # The next line updates PATH for egcli command.
 [ -f '/Users/haydenk/Library/Group Containers/FELUD555VC.group.com.egnyte.DesktopApp/CLI/egcli.inc' ] && . '/Users/haydenk/Library/Group Containers/FELUD555VC.group.com.egnyte.DesktopApp/CLI/egcli.inc';
