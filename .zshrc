@@ -13,7 +13,6 @@ add-zsh-hook precmd _umask_hook
 
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
-export ZSH_CUSTOM="$HOME/.config/zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time Oh My Zsh is loaded, in which case,
@@ -85,6 +84,7 @@ HIST_STAMPS="yyyy-mm-dd"
 
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
+ZSH_CUSTOM="$HOME/.config/zsh"
 
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
