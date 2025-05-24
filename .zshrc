@@ -82,19 +82,13 @@ ZSH_CUSTOM="$HOME/.config/zsh"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-    1password
-    macos
     ansible
     aws
-    brew
     bun
     bundler
     cabal
     colorize
-    docker
-    docker-compose
     dotenv
-    eza
     encode64
     history
     git
@@ -108,7 +102,6 @@ plugins=(
     gnu-utils
     ruby
     python
-    umask
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -116,10 +109,6 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 zstyle ':completion:*' list-colors $LS_COLORS
-
-fpath=($HOME/.docker/completions $fpath)
-autoload -Uz compinit
-compinit
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
@@ -149,4 +138,6 @@ compinit
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # The next line updates PATH for egcli command.
-[ -f "$HOME/Library/Group Containers/FELUD555VC.group.com.egnyte.DesktopApp/CLI/egcli.inc" ] && . "$HOME/Library/Group Containers/FELUD555VC.group.com.egnyte.DesktopApp/CLI/egcli.inc";
+DISABLE_AUTO_UPDATE=true
+DISABLE_UPDATE_PROMPT=true
+
