@@ -96,13 +96,14 @@ plugins=(
     git-escape-magic
     git-extras
     git-flow
-    git-flow-avh
     git-hubflow
     git-prompt
     gnu-utils
     ruby
     python
     umask
+    zsh-autosuggestions
+    zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
