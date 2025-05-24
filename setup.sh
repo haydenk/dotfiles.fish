@@ -24,6 +24,6 @@ config config --local status.showUntrackedFiles no
 mkdir -vp $HOME/.config/zsh/plugins/zsh-autosuggestions
 curl -sSL https://github.com/zsh-users/zsh-autosuggestions/archive/refs/tags/$ZSH_AUTOSUGGESTIONS_VERSION.tar.gz | tar xvz --strip-components=1 -C $HOME/.config/zsh/plugins/zsh-autosuggestions/
 
-mkdir -vp $HOM<E/.config/zsh/plugins/zsh-syntax-highlighting
+mkdir -vp $HOME/.config/zsh/plugins/zsh-syntax-highlighting
 curl -sSL https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/$ZSH_SYNTAX_HIGHLIGHTING_VERSION.tar.gz | tar xvz --strip-components=1 -C $HOME/.config/zsh/plugins/zsh-syntax-highlighting/
 
