@@ -10,7 +10,7 @@ wget -qO- https://raw.githubusercontent.com/eza-community/eza/main/deb.asc | sud
 echo "deb [signed-by=/etc/apt/keyrings/gierens.gpg] http://deb.gierens.de stable main" | sudo tee /etc/apt/sources.list.d/gierens.list
 sudo chmod 644 /etc/apt/keyrings/gierens.gpg /etc/apt/sources.list.d/gierens.list
 
-sudo apt update && sudo apt install -y eza git-flow pwgen
+sudo apt update && sudo apt install -y eza git-flow pwgen xclip xsel
 
 # dotfiles install source: https://www.atlassian.com/git/tutorials/dotfiles
 alias config="/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
