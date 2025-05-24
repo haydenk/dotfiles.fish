@@ -90,6 +90,7 @@ plugins=(
     colorize
     dotenv
     encode64
+    extract
     history
     git
     git-auto-fetch
@@ -101,7 +102,9 @@ plugins=(
     gnu-utils
     ruby
     python
+    virtualenv
     umask
+    z
     zsh-autosuggestions
     zsh-syntax-highlighting
 )
