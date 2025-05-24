@@ -12,6 +12,7 @@ sudo chmod 644 /etc/apt/keyrings/gierens.gpg /etc/apt/sources.list.d/gierens.lis
 
 sudo apt update && sudo apt install -y eza git-flow
 
+# dotfiles install source: https://www.atlassian.com/git/tutorials/dotfiles
 alias config="/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
 
 rm -vf $HOME/.zshrc $HOME/.zprofile $HOME/.zcompdump*
