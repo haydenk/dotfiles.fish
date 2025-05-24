@@ -1,4 +1,4 @@
-ialias mv="mv -v"
+alias mv="mv -v"
 alias cp="cp -v"
 alias rm="rm -v"
 alias ln="ln -v"
@@ -16,11 +16,3 @@ alias cll="clear; and eza --long --all --header --git --no-permissions --no-time
 ## Tree view
 alias tree='eza -Ta --ignore-glob="node_modules|.git|.vscode|.DS_Store"'
 alias ltd='eza -TaD --ignore-glob="node_modules|.git|.vscode|.DS_Store"'
-
-
-if [[ "$OSTYPE" != "darwin" ]];
-then
-  ## Clipboard alias like macOS
-  alias pbcopy="clipcopy"
-  alias pbpaste="clippaste"
-fi;
