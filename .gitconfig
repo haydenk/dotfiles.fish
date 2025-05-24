@@ -205,5 +205,3 @@
 	defaultBranch = master
 [fetch]
 	prune = true
-[includeIf "gitdir:~/Projects/Five/"]
-	path = ~/Projects/Five/.gitconfig
