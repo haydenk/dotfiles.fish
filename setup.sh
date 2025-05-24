@@ -28,4 +28,5 @@ curl -sSL https://github.com/zsh-users/zsh-autosuggestions/archive/refs/tags/$ZS
 mkdir -vp $HOME/.config/zsh/plugins/zsh-syntax-highlighting
 curl -sSL https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/$ZSH_SYNTAX_HIGHLIGHTING_VERSION.tar.gz | tar xvz --strip-components=1 -C $HOME/.config/zsh/plugins/zsh-syntax-highlighting/
 
-curl -sSL https://github.com/lemonade-command/lemonade/releases/download/v1.1.1/lemonade_linux_amd64.tar.gz | tar xvz -C $HOME/.local/bin
+mkdir -vp $HOME/.local/bin
+curl -sSL https://github.com/lemonade-command/lemonade/releases/download/v1.1.1/lemonade_linux_amd64.tar.gz | tar xvz -C $HOME/.local/bin/
