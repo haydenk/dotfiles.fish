@@ -5,10 +5,10 @@ set -e
 ZSH_AUTOSUGGESTIONS_VERSION="v0.7.1"
 ZSH_SYNTAX_HIGHLIGHTING_VERSION="0.8.0"
 
-mkdir -v ~/.config/zsh/plugins/zsh-autosuggestions && curl -sSL
+mkdir -vp ~/.config/zsh/plugins/zsh-autosuggestions && curl -sSL
 https://github.com/zsh-users/zsh-autosuggestions/archive/refs/tags/$ZSH_AUTOSUGGESTIONS_VERSION.tar.gz | tar xvz --strip-components=1 -C ~/.config/zsh/plugins/zsh-autosuggestions/
 
-mkdir -v ~/.config/zsh/plugins/zsh-syntax-highlighting && curl -sSL
+mkdir -vp ~/.config/zsh/plugins/zsh-syntax-highlighting && curl -sSL
 https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/$ZSH_SYNTAX_HIGHLIGHTING_VERSION.tar.gz | tar xvz --strip-components=1 -C ~/.config/zsh/plugins/zsh-syntax-highlighting/
 
 sudo mkdir -p /etc/apt/keyrings
