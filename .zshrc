@@ -102,6 +102,7 @@ plugins=(
     gnu-utils
     ruby
     python
+    umask
 )
 
 source $ZSH/oh-my-zsh.sh

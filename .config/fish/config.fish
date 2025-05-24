@@ -6,10 +6,3 @@ end
 
 source ~/.config/fish/functions/*.fish
 
-if test -d "~/.brew/share/fish/completions"
-    set -p fish_complete_path ~/.brew/share/fish/completions
-end
-
-if test -d "~/.brew/share/fish/vendor_completions.d"
-    set -p fish_complete_path ~/.brew/share/fish/vendor_completions.d
-end
