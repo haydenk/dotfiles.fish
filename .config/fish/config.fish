@@ -5,3 +5,5 @@ if status is-interactive
 end
 
 source ~/.config/fish/functions/*.fish
+
+eval $($HOMEBREW_PREFIX/bin/brew shellenv)
