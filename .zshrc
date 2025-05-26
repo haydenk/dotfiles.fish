@@ -88,6 +88,8 @@ plugins=(
     bundler
     cabal
     colorize
+    docker
+    docker-compose
     dotenv
     encode64
     extract
@@ -100,6 +102,7 @@ plugins=(
     git-hubflow
     git-prompt
     gnu-utils
+    macos
     ruby
     python
     virtualenv
@@ -143,6 +146,3 @@ zstyle ':completion:*' list-colors $LS_COLORS
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # The next line updates PATH for egcli command.
-DISABLE_AUTO_UPDATE=true
-DISABLE_UPDATE_PROMPT=true
-
