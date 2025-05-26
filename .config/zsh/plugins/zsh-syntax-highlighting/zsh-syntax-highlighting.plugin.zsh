@@ -1,1 +1,2 @@
-source $BREW_HOME/Cellar/zsh-syntax-highlighting/0.8.0/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+export ZSH_HIGHLIGHT_HIGHLIGHTERS_DIR=$BREW_HOME/share/zsh-syntax-highlighting/highlighters
+source $BREW_HOME/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
