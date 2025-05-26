@@ -1,0 +1,1 @@
+source $BREW_HOME/Cellar/zsh-syntax-highlighting/0.8.0/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
