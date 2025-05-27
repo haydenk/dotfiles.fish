@@ -1,0 +1,1 @@
+fish_add_path --append "$HOME/Library/Group Containers/FELUD555VC.group.com.egnyte.DesktopApp/CLI"

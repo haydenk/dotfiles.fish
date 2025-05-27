@@ -26,6 +26,7 @@ load_paths=(
     $HOME/.local/bin
     $HOME/.bun/bin
     $JETBRAINS_SCRIPTS
+    $HOME/Library/Group Containers/FELUD555VC.group.com.egnyte.DesktopApp/CLI
     # $BREW_HOME/opt/binutils/bin
     $BREW_HOME/opt/berkeley-db/bin
     $BREW_HOME/opt/bzip2/bin
