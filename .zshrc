@@ -94,6 +94,7 @@ plugins=(
     encode64
     extract
     history
+    mise
     git
     git-auto-fetch
     git-escape-magic
