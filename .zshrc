@@ -147,3 +147,6 @@ zstyle ':completion:*' list-colors $LS_COLORS
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # The next line updates PATH for egcli command.
+
+# The next line updates PATH for egcli command.
+if [ -f "$HOME/Library/Group Containers/FELUD555VC.group.com.egnyte.DesktopApp/CLI/egcli.inc" ]; then . "$HOME/Library/Group Containers/FELUD555VC.group.com.egnyte.DesktopApp/CLI/egcli.inc"; fi
